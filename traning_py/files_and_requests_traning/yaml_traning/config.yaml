@@ -1,0 +1,13 @@
+ci_cd:
+- jenkins
+- selenide
+environment:
+- browsers:
+  - browser: chrome
+    lang: en
+    version: 87.0.1
+host:
+- 192.168.0.1
+- '8080'
+log: user_name
+password: 123qwe
